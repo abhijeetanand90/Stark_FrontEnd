@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *,
 *::before,
 *::after {
@@ -40,6 +44,68 @@ html:focus-within {
   }
 }
 
+ul{
+  list-style: none;
+}
+
 nav{
   color: #381FD1;
+  background-color:    #f6f6eb;
+  display: flex;
+  font-size: 16px;
+  font-family: "Hanken Grotesk", serif;
+  font-weight: 900;
+  justify-content: space-around;
+  padding: 16px;
+  /* border: 2px lime solid; */
+}
+
+.left_ul{
+       display: flex;
+      gap:10px;
+      align-items: center;
+}
+.right_ul{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo{
+          max-width: 70px;
+          max-height: 70px;
+}
+.trial{
+  background-color: #381FD1;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.container{
+  width: 80%;
+  /* border: 2px red solid; */
+  margin: 0px auto;
+  padding-top: 80px;
+}
+.search--box{
+  padding: 10px 40px;
+}
+
+
+main{
+  background-color:   #fff;
+}
+footer{
+  background-color:   #11284b;
+}
+.hero{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 40px;
+}
+
+.library_section{
+  border: 2px solid blue;
+}
+.search_section{
+  border: 2px solid red;
 }
